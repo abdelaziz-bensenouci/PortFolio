@@ -1,0 +1,36 @@
+.coordonnées a img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.coordonnées a img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 2s;
+    animation-fill-mode: forwards;
+}
+
+.collapse {
+    transition: all 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
