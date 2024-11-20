@@ -45,6 +45,9 @@
     </header>
 
     <main>
+        <div class="bg-danger text-white text-center py-3 fs-5 blinking">
+            <strong>En recherche d'alternance en tant que développeur de logiciel à partir de septembre 2025</strong>
+        </div>
         <!-- Galerie icones  -->
         <div class="d-flex justify-content-around align-items-center mt-5">
             <div class="card-body d-flex flex-column">
@@ -75,7 +78,7 @@
         </div>
 
         <!-- Présentation -->
-        <section class="container mt-5 mb-5 text-center fade-in" id="Présentation">
+        <section class="container mb-5 text-center fs-3 fade-in" id="Présentation">
             <h2>À propos de moi</h2>
             <p>Passionné par l'informatique, j'ai acquis mes premières compétences en codage grâce à une initiation
                 au développement d'applications mobiles iOS avec Simplon.co, une formation financée et agréée par Apple
@@ -85,7 +88,7 @@
         </section>
 
         <!-- Compétences -->
-        <section class="container mt-5 mb-5 text-center fade-in" id="Compétences">
+        <section class="container mb-5 text-center fs-3 fade-in" id="Compétences">
             <h2 class="animate__animated animate__fadeInDown">Compétences</h2>
             <p>
                 <strong>Langages de Programmation :</strong> HTML, CSS, JavaScript, Java, Php
@@ -102,7 +105,7 @@
         </section>
 
         <!-- Formations -->
-        <section class="container mt-5 mb-5 text-center fade-in" id="Formations">
+        <section class="container mb-5 text-center fs-3 fade-in" id="Formations">
             <h2>Formations</h2>
             <p>
                 Pour concrétiser cette reconversion, j'ai intégré l'ENI pour suivre une formation intensive
@@ -117,30 +120,45 @@
         </section>
 
         <!-- Projets -->
-        <section id="Projets" class="container mt-5 mb-5 fade-in">
-            <h2 class="text-center">Mes Projets</h2>
+        <section id="Projets" class="container mb-5 fade-in">
+            <h2 class="text-center fs-3">Mes Projets</h2>
             <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active fs-4">
                         <div class="carousel-text-below">
                             <p>Site de vente de véhicule. PHP, Javascript, Bootstrap et BDD Mysql.</p>
+                            <a href="https://github.com/abdben13/Projet_Stage">Cliquez ici</a>
+                            <img src="img/site-voitures.png" class="img_projet" alt="Achetez-auto.com">
                         </div>
-                        <img src="img/site-voitures.png" class="img_projet" alt="Achetez-auto.com">
+
 
                     </div>
-                    <div class="carousel-item active">
-                        <img src="" class="d-block w-100 h-50" alt="Projet_Eni">
-                        <div class="carousel-caption">
+                    <div class="carousel-item">
+                        <div class="carousel-text-below w-50 mx-auto fs-4">
                             <p>Projet réalisé en JAVA JEE durant la formation ENI, ventes aux enchères de divers
-                                articles. Environnement Eclipse, serveur Tomcat</p>
+                                articles. Environnement Eclipse, serveur Tomcat. Possibilité de publier une annonce ou
+                                d'encherir sur une annonce.</p>
+                            <a href="https://github.com/abdben13/https---github.com-abdben13-ProjetEnchere">
+                                Cliquez ici</a>
                         </div>
+                        <img src="img/java3.png" class="img_projet2" alt="Projet_Eni">
                     </div>
                     <div class="carousel-item">
-                        <img src="" class="d-block w-100" alt="Projet_Eni">
-                        <div class="carousel-caption">
-                            <p>Projet réalisé sous Symfony 6 durant la formation ENI, ventes aux enchères de divers
-                                articles.</p>
+                        <div class="carousel-text-below w-50 mx-auto fs-4">
+                            <p>Forum et chat sur l'autisme. PHP, Javascript, Bootstrap et BDD Mysql.</p>
+                            <a href="https://github.com/abdben13/Forum">
+                                Cliquez ici</a>
                         </div>
+                        <img src="img/js.png" class="img_projet2" alt="Projet_Eni">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text-below w-50 mx-auto fs-4">
+                            <p>Projet réalisé sous Symfony 6 durant la formation ENI, site d'organisation de sortie pour
+                                étudiants. Possibilité de créer une sortie ou de s'inscrire comme participant pour une
+                                sortie publiée.</p>
+                            <a href="https://github.com/abdben13/ProjetSortie">Cliquez ici</a>
+                        </div>
+                        <img src="img/symfony-128.png" class="img_projet2" alt="Projet_Eni">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel"
@@ -157,7 +175,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="container mt-5 mb-5 text-center fade-in" id="Contact">
+        <section class="container text-center fade-in fs-3" id="Contact">
             <h2>Contactez-moi</h2>
             <h3>Téléphone : 07.69.88.84.39</h3>
             <h3>Email : abdelazizben.dev@gmail.com</h3>

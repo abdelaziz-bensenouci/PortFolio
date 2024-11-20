@@ -8,19 +8,44 @@ body {
     align-items: center; 
     margin-bottom: 20px;
 }
+#Projets, #Présentation, #Compétences, #Formations{
+    margin-top: 100px;
+}
 .img_projet{
         width: 50%; 
         height: auto; 
         display: block; 
-        margin: 0 auto; 
+        margin: 20px auto; 
+}
+.img_projet2{
+    width: 30%; 
+    height: 5%; 
+    display: block; 
+    margin: 20px auto; 
 }
 .carousel-item {
     text-align: center;
 }
     
-.carousel-text-below {
+.carousel-text-below{
     margin-top: 10px; 
     color: white; 
+} 
+.carousel-item a{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    
+}
+.carousel-item a:hover{
+    background-color: #2575fc;
+}
+#Contact{
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 .coordonnées a img {
     width: 40px;
@@ -57,4 +82,19 @@ footer {
     100% {
         opacity: 1;
     }
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking {
+    animation: blink 4s infinite;
 }
