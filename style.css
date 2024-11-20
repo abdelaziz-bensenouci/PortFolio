@@ -1,3 +1,27 @@
+
+body {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.img_projet{
+        width: 50%; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+}
+.carousel-item {
+    text-align: center;
+}
+    
+.carousel-text-below {
+    margin-top: 10px; 
+    color: white; 
+}
 .coordonnées a img {
     width: 40px;
     margin: 0 10px;
