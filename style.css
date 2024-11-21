@@ -2,6 +2,9 @@
 body {
         background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
 }
+main{
+    color: whitesmoke;
+}
 .thumbnail {
     display: flex;
     justify-content: center;
@@ -9,9 +12,15 @@ body {
     margin-bottom: 20px;
 }
 h1{
+    margin-top: 20px;
     text-align: center;
     color: white;
     padding: 40px;
+}
+section {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
 }
 #Projets, #Présentation, #Compétences, #Formations{
     margin-top: 100px;
