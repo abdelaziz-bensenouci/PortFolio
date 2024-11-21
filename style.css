@@ -8,6 +8,11 @@ body {
     align-items: center; 
     margin-bottom: 20px;
 }
+h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
 #Projets, #Présentation, #Compétences, #Formations{
     margin-top: 100px;
 }
